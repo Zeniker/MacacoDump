@@ -1,3 +1,5 @@
+from typing import List
+
 from model.jikan.character_images import CharacterImages
 
 class Character:
@@ -10,4 +12,4 @@ class Character:
 		self.name_kanji = ""
 		self.nicknames = []
 		self.favorites = 0
-		self.about = ""
+		self.about = ""	

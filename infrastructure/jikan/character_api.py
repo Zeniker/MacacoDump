@@ -2,11 +2,9 @@ import urllib.parse
 import json
 
 from config.rest_config import RestConfig
-from model.jikan.character import Character
 from model.jikan.character_search_request import CharacterSearchRequest
-from model.jikan.character_search_response import CharacterSearchResponse
 
-class CharacterRepository:
+class CharacterApi:
 
 	def search(self, character_search_request : CharacterSearchRequest):
 
